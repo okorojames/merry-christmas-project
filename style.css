@@ -34,7 +34,7 @@ a:visited {
 .gallery {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(15, 5vh);
+  grid-template-rows: repeat(18, 5vh);
   gap: 0.3rem;
   padding: 0.5rem;
 }
@@ -106,5 +106,31 @@ a:visited {
   }
   .content {
     top: 15%;
+  }
+}
+@media screen and (max-width: 776px) {
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .grid-item-6 {
+    grid-column: 1 / span 2;
+    grid-row: 16 / span 3;
+  }
+  .grid-item-7 {
+    grid-column: 3 / span 2;
+    grid-row: 16 / span 3;
+  }
+  .grid-item-4 {
+    grid-column: 5 / span 2;
+    grid-row: 16 / span 3;
+  }
+  .grid-item-1 {
+    grid-column: 4 / span 3;
+  }
+  .grid-item-5 {
+    grid-column: 3;
+  }
+  .grid-item-3 {
+    grid-column: 1 / span 2;
   }
 }
