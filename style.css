@@ -12,6 +12,7 @@ html {
 }
 body {
   font-family: "Rouge Script", cursive;
+  margin-bottom: 3rem;
 }
 a:link,
 a:visited {
@@ -88,6 +89,9 @@ a:visited {
   font-family: "Kaushan Script", sans-serif;
   font-weight: 400;
 }
+footer {
+  margin-top: -5rem;
+}
 .footer {
   text-align: center;
   font-size: 2rem;
@@ -132,5 +136,8 @@ a:visited {
   }
   .grid-item-3 {
     grid-column: 1 / span 2;
+  }
+  footer {
+    margin-top: 0;
   }
 }
