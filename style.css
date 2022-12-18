@@ -75,6 +75,7 @@ a:visited {
   text-align: center;
   width: 50%;
   color: #051422;
+  pointer-events: none;
 }
 .content-h5 {
   font-size: 5rem;
